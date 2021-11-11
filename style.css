@@ -1,5 +1,18 @@
 body {
-  margin: 0 auto;
-  max-width: 900px;
-  min-width: 600px;
+  color: #222;
+  font-family: web-safe fonts, generic fallback;
+  font-size: 16px;
+  line-height: 1.25;
 }
+h2, h3 {
+  color: rgb(69,105,159);
+  margin-top: 0;
+}
+
+main {
+  padding: 16px;
+  max-width: 600px;
+}
+img {
+  max-width: 100px;
+  height: auto;
