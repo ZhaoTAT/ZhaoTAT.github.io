@@ -59,7 +59,7 @@ section {
   position: relative;
 }
 
-#box {
+#box, #box1, #box2, #box3 {
     background-color: rgba(231,209,75,0.15);
     width: 400px;
     height: 100px;
