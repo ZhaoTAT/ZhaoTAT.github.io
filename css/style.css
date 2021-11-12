@@ -47,10 +47,11 @@ main {
 
 p, li {
   font-size: 16px;
+
 }
 
 h2,h3{
-  text-align: center
+  text-align: center;
 }
 
 section {
@@ -67,17 +68,18 @@ section {
     margin: 0;
   }
 
+
 footer  {
     font-size: 14px;
-    text-align: center
+    text-align: center;
   }
 
 img {
   max-width: 300px;
   height: auto;
+  text-align: center;
 }
 
 figcaption{
   font-size: 10px;
 }
-
