@@ -64,7 +64,7 @@ section {
     width: 400px;
     height: 100px;
     overflow: auto;
-    border: 5px solid gray;
+    border: 5px rgb(169,169,169);
     margin: 0;
   }
 
