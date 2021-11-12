@@ -1,35 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif&display=swap');
 
+header {
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+}
+
 body {
   background-color: rgba(14,31,65,0.2);
   font-family: "Gugi", "Helvetica", "Arial", "sans-serif";
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
-  margin: 0;
-  padding-left: 0;
+  margin: 0 auto;
+  padding: 16px;
   min-height: 48px;
-  display: flex;
-  justify-content: space-between;
-
+  display: grid;
+  grid-gap: 5px;
 }
 
+a,
+a:link {
+  color: rgb(69,105,159);
+}
+
+a:visited {
+  color: rgb(69,105,159);
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: rgba(231,209,75,0.5);
+}
 
 main {
-  padding: 16px;
+
   overflow: auto;
   max-width: 600px;
   margin: 0 auto;
   background-color: rgba(69,105,159,0.15);
+  padding: 32px;
 }
 
 p, li {
-  line-height: 1.5;
+font-size: 16px;
 }
 
 section {
     margin-bottom: 50px;
     position: relative;
-    padding: 16px;
+
 
 }
 #box {
@@ -37,11 +59,14 @@ section {
     width: 400px;
     height: 100px;
     overflow: auto;
+    border: 5px solid gray;
+    margin: 0;
   }
 
   footer  {
     font-size: 14px;
+    text-align: center
   }
 img {
-  max-width: 100px;
+  max-width: 300px;
   height: auto;
