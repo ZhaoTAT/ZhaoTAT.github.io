@@ -39,7 +39,7 @@ a:active {
 main {
 
   overflow: auto;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   background-color: rgba(69,105,159,0.15);
   padding: 32px;
