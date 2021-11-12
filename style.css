@@ -1,18 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif&display=swap');
+
 body {
-  color: #222;
-  font-family: web-safe fonts, generic fallback;
+  background-color: rgba(14,31,65,0.2);
+  font-family: "Gugi", "Helvetica", "Arial", "sans-serif";
   font-size: 16px;
   line-height: 1.25;
+  margin: 0;
+  padding-left: 0;
+  min-height: 48px;
+  display: flex;
+  justify-content: space-between;
+
 }
-h2, h3 {
-  color: rgb(69,105,159);
-  margin-top: 0;
-}
+
 
 main {
   padding: 16px;
+  overflow: auto;
   max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(69,105,159,0.15);
 }
+
+p, li {
+  line-height: 1.5;
+}
+
+section {
+    margin-bottom: 50px;
+    position: relative;
+    padding: 16px;
+
+}
+#box {
+    background-color: rgba(231,209,75,0.15);
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+  }
+
+  footer  {
+    font-size: 14px;
+  }
 img {
   max-width: 100px;
   height: auto;
